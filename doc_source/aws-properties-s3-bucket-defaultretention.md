@@ -4,6 +4,9 @@ The default retention period that you want to apply to new objects placed in the
 
 ## Syntax<a name="aws-properties-s3-bucket-defaultretention-syntax"></a>
 
+Note:
+DefaultRetention requires either Days or Years. You can't specify both at the same time.
+
 To declare this entity in your AWS CloudFormation template, use the following syntax:
 
 ### JSON<a name="aws-properties-s3-bucket-defaultretention-syntax.json"></a>
